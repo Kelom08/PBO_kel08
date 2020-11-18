@@ -1,0 +1,25 @@
+<?php
+   class hewan{
+     //property
+     var $nama;
+     var $warna;
+     
+     //method hewan
+     function tampilkan_nama() {
+       return "Nama kucing herby<br/>";
+     }
+     
+     function warna_kulit(){
+       return "Warna kucing hitam<br/>";
+     }
+   }
+   //instansiasi class hewan
+   $hewan = new hewan();
+   
+   //memanggil method tampilkan_nama dari class hewan
+   echo $hewan->tampilkan_nama();
+   
+   //memanggil method warna_kulit dari class hewan
+   echo $hewan->warna_kulit();
+
+ ?>
